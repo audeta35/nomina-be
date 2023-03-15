@@ -2,7 +2,7 @@
 
 - project menggunakan express js
 
-* Instalasi
+# Instalasi
 - clone repo
 - yarn / npm install
 - yarn / npm start
