@@ -1,6 +1,6 @@
 # Documentation
 
-- this project using express js
+- this project using express js and mysql database
 
 # Instalation
 
