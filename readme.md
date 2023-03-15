@@ -18,12 +18,12 @@
 - (GET) `user/` get all user
 
 - (POST) `user/add` create user with `request body`:
- - `first_name` string
- - `last_name` string
- - `email` string
- - `password` string (no encrypted)
- - `hobby` integer (relation to table hobby by id)
- - `age` integer
+- - `first_name` string
+- - `last_name` string
+- - `email` string
+- - `password` string (no encrypted)
+- - `hobby` integer (relation to table hobby by id)
+- - `age` integer
 
 - (PUT) `user/edit` edit user with payload
 - - `first_name` string
