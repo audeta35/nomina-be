@@ -1,9 +1,12 @@
-# Dokumentasi
+# Documentation
 
-- project menggunakan express js
+- this project using express js
 
-# Instalasi
+# Instalation
+
 - clone repo
-- yarn / npm install
-- yarn / npm start
-- default port 3001
+- create database `nomina`
+- use `nomina` database and import `nomina.sql` from folder /database
+- run `yarn / npm install`
+- run `yarn / npm start`
+- default port started: `3001`
