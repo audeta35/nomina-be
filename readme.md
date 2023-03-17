@@ -7,6 +7,7 @@
 - clone repo
 - create database `nomina`
 - use `nomina` database and import `nomina.sql` from folder /database
+- check your db configuration from file `config/mysql.js`
 - run `yarn / npm install`
 - run `yarn / npm start`
 - default port started: `3001`
