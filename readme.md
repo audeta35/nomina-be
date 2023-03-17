@@ -25,7 +25,7 @@
 - - `hobby` integer (relation to table hobby by id)
 - - `age` integer
 
-- (PUT) `user/edit` edit user with payload
+- (POST) `user/edit` edit user with payload
 - - `first_name` string
 - - `last_name` string
 - - `email` string
@@ -48,7 +48,7 @@
 - - `name` string
 - - `status` integer (0 = `false`; 1 = `true`)
 
-- (PUT) `hobby/edit` edit hobby with `request body`:
+- (POST) `hobby/edit` edit hobby with `request body`:
 - - `name` string
 - - `status` integer (0 = `false`; 1 = `true`)
 - - `id` integer (id hobby)

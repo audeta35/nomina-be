@@ -4,7 +4,7 @@ const hobbyController = require('../controllers/hobby')
 
 router.get('/', hobbyController.getAllHobby);
 router.post('/add', hobbyController.addHobby);
-router.put('/edit', hobbyController.editHobby);
+router.post('/edit', hobbyController.editHobby);
 router.delete('/delete/:id', hobbyController.deleteHobby);
 router.post('/detail/:id', hobbyController.getHobbyById);
 

@@ -26,14 +26,16 @@ exports.addHobby = (req, res) => {
 exports.editHobby = (req, res) => {
   let {
     name,
-    status
+    status,
+    id
   } = req.body;
   let editQuery = `UPDATE hobby SET name=?, status=? WHERE id = ?`;
   conn.query(
     editQuery,
     [
       name,
-      status
+      status,
+      id
     ],
     (err, result, field) => {
       if (err) {
