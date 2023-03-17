@@ -13,7 +13,7 @@
 
 # Endpoint List
 
-1. *user*
+## 1. *user*
 
 - (GET) `user/` get all user
 
@@ -40,7 +40,7 @@
 - - `email` string
 - - `password` string
 
-2. *hobby*
+## 2. *hobby*
 
 - (GET) `hobby/` get all hobbies
 
